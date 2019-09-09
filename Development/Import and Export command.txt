@@ -1,0 +1,4 @@
+create user importcoursework identified by cw;
+grant dba to importcoursework;
+
+imp importcoursework/cw fromuser=coursework file=CC5051NA_17031257_Ashwin.dmp
